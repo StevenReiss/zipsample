@@ -9,7 +9,6 @@
 // THIS SHOULD BE UPDATED WITH VALID USER, PASSWORD
 
 var DB_CONNECT = 'mysql://USER:PASSWORD@localhost/zips';
-var DB_CONNECT = 'mysql://spr:feast2run@eadotc.cs.brown.edu/zips';
 
 var PORT = 18888;
 
