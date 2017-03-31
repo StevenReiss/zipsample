@@ -1,0 +1,31 @@
+This directory contains a very simple web server you should bring up on
+your virtual machine.
+
+This directory is the main diredtory and contains the node.js source
+files, a html subdirectory with static pages, and a views subdiretory
+with mustache template pages.
+
+The db directory contains everything needed for the database.
+
+You should first use npm to update/install all the various packages
+needed by ndoe (the package.json file should be correct).
+
+	PROPMT$ npm install
+	PROMPT$ npm update
+
+Then you should set up the database:
+
+a) First determine the options needed to run mysql (will have host, user options)
+	Let the command be #MYSQL#
+
+b)  Run this command with zipdump.sql as input:
+
+	PROMPT$ #MYSQL# < zipdump.sql
+
+You should edit the constants in config.js as appropriate.
+
+You might have to open a port (the one listed in  config.js) to make the server
+accessible externally
+
+Finally, you should add a default web page (using the normal server) that
+redirects to this server.

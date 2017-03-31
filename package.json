@@ -1,0 +1,16 @@
+{
+  "name": "zipdb",
+  "version": "0.0.0",
+  "description": "Sample zip server for cs132",
+  "main": "server.js",
+  "author": "Steven Reiss",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "any-db": "^2.1.0",
+    "any-db-mysql": "^2.1.2",
+    "express-handlebars": "^3.0.0",
+    "body-parser": "^1.17.1",
+    "morgan": "^1.8.1"
+  }
+}

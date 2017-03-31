@@ -1,0 +1,28 @@
+<body class='resultbody'>
+
+<h1 class="pagetitle"><strong> ZIP Query Results </strong> </h1>
+
+{{#if error}}
+<p>
+Zip Code {{zip}} doesn't exist.
+{{else}}
+Zip Code {{zip}} is in {{city}}, {{state}}.
+{{/if}}
+
+<hr>
+
+<form id="form1" name="form1" method="post" action="/findzip">
+  <p>Enter Zip Code:</p>
+  <p>
+    <label for="zip">Zip:</label>
+    <input type="text" pattern='\d{5}' name="zip" id="zip" />
+  </p>
+  <p>
+    <input type="submit" name="button" id="button" value="Submit" />
+  </p>
+</form>
+
+
+</ol>
+</body>
+</html>
